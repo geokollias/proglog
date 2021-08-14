@@ -9,7 +9,8 @@ require (
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/tysontate/gommap v0.0.0-20210506040252-ef38c88b18e1
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
+	go.opencensus.io v0.23.0
+	go.uber.org/zap v1.10.0
 	golang.org/x/sys v0.0.0-20201214210602-f9fddec55a1e // indirect
 	golang.org/x/text v0.3.4 // indirect
 	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013

@@ -55,4 +55,4 @@ test: $(CONFIG_PATH)/policy.csv $(CONFIG_PATH)/model.conf
 TAG ?= 0.0.1
 
 build-docker:
-	docker build -t github.com/geokollias/proglog:$(TAG) .
+	docker build -t github.com/geokollias/proglog:$(TAG) . --platform "linux/amd64"
